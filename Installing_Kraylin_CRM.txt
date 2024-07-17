@@ -1,0 +1,321 @@
+MINGW64 /c/webdev/Gauteng Health API Hub/GPHealth-API-Hub/php/laravel/expansion-apps/crm/laravel-crm (master)
+$ php artisan config:clear
+
+   INFO  Configuration cache cleared successfully.
+
+
+MINGW64 /c/webdev/Gauteng Health API Hub/GPHealth-API-Hub/php/laravel/expansion-apps/crm/laravel-crm (master)
+$ php artisan krayin-crm:install
+Great! your environment configuration file already exists.
+
+  Please enter the application name: [Kraylin CRM]
+❯ 
+
+  Please enter the application URL: [http://localhost]
+❯ 
+
+Your Default Timezone is Asia/Kolkata
+
+  Please select the default application locale: [English]
+  Arabic ............................................................................................................................... ar  
+  English .............................................................................................................................. en  
+  Turkish .............................................................................................................................. tr  
+❯ 
+
+
+  Please select the default currency:
+  United Arab Emirates Dirham ......................................................................................................... AED  
+  Argentine Peso ...................................................................................................................... ARS  
+  Australian Dollar ................................................................................................................... AUD  
+  Bangladeshi Taka .................................................................................................................... BDT  
+  Brazilian Real ...................................................................................................................... BRL  
+  Canadian Dollar ..................................................................................................................... CAD  
+  Swiss Franc ......................................................................................................................... CHF  
+  Chilean Peso ........................................................................................................................ CLP  
+  Chinese Yuan ........................................................................................................................ CNY  
+  Colombian Peso ...................................................................................................................... COP  
+  Czech Koruna ........................................................................................................................ CZK  
+  Danish Krone ........................................................................................................................ DKK  
+  Algerian Dinar ...................................................................................................................... DZD  
+  Egyptian Pound ...................................................................................................................... EGP  
+  Euro ................................................................................................................................ EUR  
+  Fijian Dollar ....................................................................................................................... FJD  
+  British Pound Sterling .............................................................................................................. GBP  
+  Hong Kong Dollar .................................................................................................................... HKD  
+  Hungarian Forint .................................................................................................................... HUF  
+  Indonesian Rupiah ................................................................................................................... IDR  
+  Israeli New Shekel .................................................................................................................. ILS  
+  Indian Rupee ........................................................................................................................ INR  
+  Jordanian Dinar ..................................................................................................................... JOD  
+  Japanese Yen ........................................................................................................................ JPY  
+  South Korean Won .................................................................................................................... KRW  
+  Kuwaiti Dinar ....................................................................................................................... KWD  
+  Kazakhstani Tenge ................................................................................................................... KZT  
+  Lebanese Pound ...................................................................................................................... LBP  
+  Sri Lankan Rupee .................................................................................................................... LKR  
+  Libyan Dinar ........................................................................................................................ LYD  
+  Moroccan Dirham ..................................................................................................................... MAD  
+  Mauritian Rupee ..................................................................................................................... MUR  
+  Mexican Peso ........................................................................................................................ MXN  
+  Malaysian Ringgit ................................................................................................................... MYR  
+  Nigerian Naira ...................................................................................................................... NGN  
+  Norwegian Krone ..................................................................................................................... NOK  
+  Nepalese Rupee ...................................................................................................................... NPR  
+  New Zealand Dollar .................................................................................................................. NZD  
+  Omani Rial .......................................................................................................................... OMR  
+  Panamanian Balboa ................................................................................................................... PAB  
+  Peruvian Nuevo Sol .................................................................................................................. PEN  
+  Philippine Peso ..................................................................................................................... PHP  
+  Pakistani Rupee ..................................................................................................................... PKR  
+  Polish Zloty ........................................................................................................................ PLN  
+  Paraguayan Guarani .................................................................................................................. PYG  
+  Qatari Rial ......................................................................................................................... QAR  
+  Romanian Leu ........................................................................................................................ RON  
+  Russian Ruble ....................................................................................................................... RUB  
+  Saudi Riyal ......................................................................................................................... SAR  
+  Swedish Krona ....................................................................................................................... SEK  
+  Singapore Dollar .................................................................................................................... SGD  
+  Thai Baht ........................................................................................................................... THB  
+  Tunisian Dinar ...................................................................................................................... TND  
+  Turkish Lira ........................................................................................................................ TRY  
+  New Taiwan Dollar ................................................................................................................... TWD  
+  Ukrainian Hryvnia ................................................................................................................... UAH  
+  United States Dollar ................................................................................................................ USD  
+  Uzbekistani Som ..................................................................................................................... UZS  
+  Venezuelan Bolívar .................................................................................................................. VEF  
+  Vietnamese Dong ..................................................................................................................... VND  
+  CFA Franc BEAC ...................................................................................................................... XAF  
+  CFA Franc BCEAO ..................................................................................................................... XOF  
+  South African Rand .................................................................................................................. ZAR  
+  Zambian Kwacha ...................................................................................................................... ZMW  
+❯ ZAR
+ZAR
+
+  Please select the database connection:
+  mysql ................................................................................................................................. 0  
+  pgsql ................................................................................................................................. 1  
+  sqlsrv ................................................................................................................................ 2  
+❯ 0
+0
+
+  Please enter the database host: [127.0.0.1]
+❯ 
+
+  Please enter the database port: [3306]
+❯ 
+
+  Please enter the database name: [laravel-crm]
+❯ 
+
+  Please enter the database prefix:
+❯ 
+
+  Please enter your database username: [root]
+❯ 
+
+  Please enter your database password:
+❯ 
+
+Loading configs...
+Configuration loaded...
+Step: Generating key...
+
+   INFO  Application key set successfully.
+
+Step: Migrating all tables...
+
+  Dropping all tables .......................................................................................................... 358ms DONE  
+
+   INFO  Preparing database.
+
+  Creating migration table ..................................................................................................... 112ms DONE  
+
+   INFO  Running migrations.
+
+  2019_08_19_000000_create_failed_jobs_table ................................................................................... 177ms DONE  
+  2019_12_14_000001_create_personal_access_tokens_table ......................................................................... 58ms DONE  
+  2021_03_12_060658_create_core_config_table .................................................................................... 11ms DONE  
+  2021_03_12_074578_create_groups_table .......................................................................................... 7ms DONE  
+  2021_03_12_074597_create_roles_table .......................................................................................... 14ms DONE  
+  2021_03_12_074857_create_users_table ......................................................................................... 110ms DONE  
+  2021_03_12_074867_create_user_groups_table .................................................................................... 59ms DONE  
+  2021_03_12_074957_create_user_password_resets_table ........................................................................... 39ms DONE  
+  2021_04_02_080709_create_attributes_table ..................................................................................... 39ms DONE  
+  2021_04_02_080837_create_attribute_options_table .............................................................................. 33ms DONE  
+  2021_04_06_122751_create_attribute_values_table ............................................................................... 66ms DONE  
+  2021_04_09_051326_create_organizations_table ................................................................................... 8ms DONE  
+  2021_04_09_065617_create_persons_table ........................................................................................ 32ms DONE  
+  2021_04_09_065617_create_products_table ....................................................................................... 29ms DONE  
+  2021_04_12_173232_create_countries_table ....................................................................................... 6ms DONE  
+  2021_04_12_173344_create_country_states_table ................................................................................. 38ms DONE  
+  2021_04_21_172825_create_lead_sources_table .................................................................................... 8ms DONE  
+  2021_04_21_172847_create_lead_types_table ..................................................................................... 11ms DONE  
+  2021_04_22_153258_create_lead_stages_table ..................................................................................... 9ms DONE  
+  2021_04_22_155706_create_lead_pipelines_table .................................................................................. 6ms DONE  
+  2021_04_22_155838_create_lead_pipeline_stages_table ........................................................................... 69ms DONE  
+  2021_04_22_164215_create_leads_table ......................................................................................... 122ms DONE  
+  2021_04_22_171805_create_lead_products_table .................................................................................. 49ms DONE  
+  2021_05_12_150329_create_activities_table ..................................................................................... 31ms DONE  
+  2021_05_12_150329_create_lead_activities_table ................................................................................ 42ms DONE  
+  2021_05_15_151855_create_activity_files_table ................................................................................. 25ms DONE  
+  2021_05_20_141230_create_tags_table ........................................................................................... 21ms DONE  
+  2021_05_20_141240_create_lead_tags_table ...................................................................................... 38ms DONE  
+  2021_05_24_075618_create_emails_table ........................................................................................ 130ms DONE  
+  2021_05_25_072700_create_email_attachments_table .............................................................................. 21ms DONE  
+  2021_06_07_162808_add_lead_view_permission_column_in_users_table .............................................................. 25ms DONE  
+  2021_07_01_230345_create_quotes_table ......................................................................................... 58ms DONE  
+  2021_07_01_231317_create_quote_items_table .................................................................................... 25ms DONE  
+  2021_07_02_201822_create_lead_quotes_table .................................................................................... 43ms DONE  
+  2021_07_28_142453_create_activity_participants_table .......................................................................... 72ms DONE  
+  2021_08_26_133538_create_workflows_table ....................................................................................... 7ms DONE  
+  2021_09_03_172713_create_email_templates_table ................................................................................. 7ms DONE  
+  2021_09_22_194103_add_unique_index_to_name_in_organizations_table ............................................................. 14ms DONE  
+  2021_09_22_194622_add_unique_index_to_name_in_groups_table .................................................................... 20ms DONE  
+  2021_09_23_221138_add_column_expected_close_date_in_leads_table ............................................................... 28ms DONE  
+  2021_09_30_135857_add_column_rotten_days_in_lead_pipelines_table .............................................................. 24ms DONE  
+  2021_09_30_154222_alter_lead_pipeline_stages_table ........................................................................... 143ms DONE  
+  2021_09_30_161722_alter_leads_table ........................................................................................... 98ms DONE  
+  2021_09_30_183825_change_user_id_to_nullable_in_leads_table ................................................................ 1,519ms DONE  
+  2021_10_02_170105_insert_expected_closed_date_column_in_attributes_table ....................................................... 1ms DONE  
+  2021_11_11_180804_change_lead_pipeline_stage_id_constraint_in_leads_table ..................................................... 42ms DONE  
+  2021_11_12_171510_add_image_column_in_users_table ............................................................................. 20ms DONE  
+  2021_11_17_190943_add_location_column_in_activities_table ..................................................................... 17ms DONE  
+  2021_12_14_213049_create_web_forms_table ...................................................................................... 32ms DONE  
+  2021_12_14_214923_create_web_form_attributes_table ............................................................................ 62ms DONE  
+  2024_06_21_160707_create_warehouses_table ...................................................................................... 7ms DONE  
+  2024_06_21_160735_create_warehouse_locations_table ............................................................................ 47ms DONE  
+  2024_06_24_174241_insert_warehouse_attributes_in_attributes_table ............................................................. 27ms DONE  
+  2024_06_28_154009_create_product_inventories_table ............................................................................ 78ms DONE  
+
+Step: Seeding basic data for Krayin kickstart...
+
+Step: Publishing assets and configurations...
+
+   INFO  Publishing assets.
+
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\framework\sr
+c\Illuminate\Foundation\Exceptions\views] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\re
+sources\views\errors]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\framework\sr
+c\Illuminate\Notifications\resources\views] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\
+resources\views\vendor\notifications]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\framework\sr
+c\Illuminate\Pagination\resources\views] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\res
+ources\views\vendor\pagination]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\barryvdh\laravel-debugbar
+\config\debugbar.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\debugbar.php]  
+DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\barryvdh\laravel-dompdf\c
+onfig\dompdf.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\dompdf.php]  DONE  
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\konekt\concord\config\con
+fig.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\concord.php]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\sanctum\data
+base\migrations] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\database\migrations]  DONE 
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\sanctum\config\sa
+nctum.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\sanctum.php]  DONE        
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\export.model.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\export.m
+odel.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\export.plain.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\export.p
+lain.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\export.query.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\export.q
+uery.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\export.query-model.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\ex
+port.query-model.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\import.collection.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\imp
+ort.collection.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\src\Con
+sole\stubs\import.model.stub] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\stubs\import.m
+odel.stub]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\maatwebsite\excel\config\
+excel.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\excel.php]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\prettus\l5-repository\src
+\resources\config\repository.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\rep
+ository.php]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\spatie\laravel-ignition\c
+onfig\ignition.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\ignition.php]  DO
+NE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\spatie\laravel-ignition\c
+onfig\flare.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\flare.php]  DONE    
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\Admin\publi
+shable\assets] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\public\vendor\webkul\admin\as
+sets]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\Core\src\Config\
+concord.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\concord.php]  DONE      
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\Core\src\Config\
+cors.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\cors.php]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\Core\src\Config\
+sanctum.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\sanctum.php]  DONE      
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\UI\publisha
+ble\assets] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\public\vendor\webkul\ui\assets] 
+ DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\packages\Webkul\WebForm\pub
+lishable\assets] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\public\vendor\webkul\web-fo
+rm\assets]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\framework\sr
+c\Illuminate\Mail\resources\views] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\resources
+\views\vendor\mail]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\diglactic\laravel-breadcr
+umbs\config\breadcrumbs.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\breadcru
+mbs.php]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\diglactic\laravel-br
+eadcrumbs\resources\views] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\resources\views\v
+endor\breadcrumbs]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\sail\runtime
+s] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\docker]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\sail\bin\sail] to
+ [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\sail]  DONE
+  Copying directory [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\sail\databas
+e] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\docker]  DONE
+  Copying file [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\vendor\laravel\tinker\config\tin
+ker.php] to [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\config\tinker.php]  DONE
+
+0
+Step: Linking storage directory...
+
+
+   INFO  The [C:\webdev\Gauteng Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\public\storage] link has been connected to [C:\webdev\Gauten
+g Health API Hub\GPHealth-API-Hub\php\laravel\expansion-apps\crm\laravel-crm\storage\app/public].
+
+Step: Clearing cached bootstrap files...
+
+   INFO  Clearing cached bootstrap files.
+
+  events ......................................................................................................................... 6ms DONE
+  views ...................................................................................................................... 1,995ms DONE
+  cache ........................................................................................................................ 258ms DONE
+  route .......................................................................................................................... 7ms DONE
+  config ......................................................................................................................... 4ms DONE
+  compiled ...................................................................................................................... 20ms DONE
+
+Step: Create admin credentials...
+<admin name>
+<admin email>
+<admin password>
+-----------------------------
+Congratulations!
+The installation has been finished and you can now use Krayin.
+Go to http://localhost/admin and authenticate with:
+Email: 
+Password: 
+Cheers!
+
+ _   __                _
+| | / /               (_)
+| |/ / _ __ __ _ _   _ _ _ __
+|    \| '__/ _` | | | | | '_ \
+| |\  \ | | (_| | |_| | | | | |
+\_| \_/_|  \__,_|\__, |_|_| |_|
+                  __/ |
+                 |___/
+
+
+
+Welcome to the Krayin project! Krayin Community is an open-source CRM solution
+which is built on top of Laravel and Vue.js.
+
+Made with �  by the Krayin Team. Happy helping :)
